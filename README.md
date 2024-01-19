@@ -17,7 +17,7 @@ Dark style | Light style
 
 
 ```bash
-pip install qbstyles
+pip install -r requirements.txt
 ```
 
 ## How do I use QB Styles?
