@@ -77,7 +77,10 @@ import matplotlib.pyplot as plt
 from qbstyles import mpl_style
 
 def plot(dark):
-    mpl_style(dark)
+    from qbstyles import mpl_style
+
+mpl_style(dark=True)
+plt.style.use('./your-style.mplstyle')
     fig, axes = plt.subplots(2, 2, figsize=(15, 10))
 
     # the following functions are defined in example.ipynb
