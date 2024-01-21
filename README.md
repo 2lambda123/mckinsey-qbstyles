@@ -47,8 +47,8 @@ mpl_style(dark=False)
 import matplotlib.pyplot as plt
 from qbstyles import mpl_style
 
-mpl_style(dark=False)
-plt.style.use('qbstyles/styles/qb-light.mplstyle')
+from qbstyles import mpl_style
+mpl_style()
 ```
 
 ```python
