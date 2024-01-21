@@ -28,6 +28,7 @@ You can use the dark Matplotlib style theme in the following way:
 from qbstyles import mpl_style
 
 mpl_style(dark=True)
+plt.style.use('./your-style.mplstyle')
 ```
 
 And to use the light Matplotlib style theme, you can do the following: 
@@ -79,6 +80,7 @@ def plot(dark):
     line_plot(axes[0, 0])
     scatter_plot(axes[0, 1])
     distribution_plot(axes[1, 0])
+plt.style.use('./your-style.mplstyle')
     ax = plt.subplot(2, 2, 4, projection='polar')
     polar_plot(ax)
 
