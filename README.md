@@ -16,7 +16,11 @@ QB Styles is a python package with a light and a dark [`matplotlib`](https://git
 `qbstyles` is a Python package. To install it, run the following command in a Python virtual environment:
 
 ```bash
+<<<<<<< HEAD
 pip install -r requirements.txt # Run this command in a Python virtual environment to install the required packages.
+=======
+pip install -r requirements.txt
+>>>>>>> origin/master
 ```
 
 ## How do I use QB Styles?
@@ -27,7 +31,11 @@ You can use the dark Matplotlib style theme in the following way:
 from qbstyles import mpl_style
 
 mpl_style(dark=True)
+<<<<<<< HEAD
 plt.style.use('qbstyles/styles/qb-dark.mplstyle')
+=======
+plt.style.use('./your-style.mplstyle')
+>>>>>>> origin/master
 ```
 
 And to use the light Matplotlib style theme, you can do the following:
@@ -70,7 +78,11 @@ mpl_style()
 
 ## Can you show me a few examples?
 
+<<<<<<< HEAD
 To run the examples in [`example.ipynb`](https://github.com/quantumblacklabs/qbstyles/blob/master/example.ipynb), install the required packages using `pip install -r requirements_notebook.txt` in a Python virtual environment of your choice.
+=======
+To run the examples in [`example.ipynb`](https://github.com/quantumblacklabs/qbstyles/blob/master/example.ipynb), install the required packages using pip install -r requirements_notebook.txt in a Python virtual environment of your choice.
+>>>>>>> origin/master
 
 ```python
 import matplotlib.pyplot as plt
@@ -84,6 +96,7 @@ def plot(dark):
     line_plot(axes[0, 0])
     scatter_plot(axes[0, 1])
     distribution_plot(axes[1, 0])
+plt.style.use('./your-style.mplstyle')
     ax = plt.subplot(2, 2, 4, projection='polar')
     polar_plot(ax)
 
