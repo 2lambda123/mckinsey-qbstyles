@@ -11,11 +11,9 @@
 # secret or copyright law. Dissemination of this information or
 # reproduction of this material is strictly forbidden unless prior written
 # permission is obtained from QuantumBlack Visual Analytics Ltd.
-
 """
 This module contains QB styles for common plotting libraries such as matplotlib.
 """
-
-from .mpl_style import mpl_style
+from qbstyles.mpl_style import mpl_style
 
 __version__ = "0.1.4"
