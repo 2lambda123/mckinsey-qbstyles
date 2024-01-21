@@ -7,14 +7,13 @@
 
 QB Styles is a python package with a light and a dark [`matplotlib`](https://github.com/matplotlib/matplotlib) style.
 
-Dark style | Light style
-|-----------|----------- |
+| Dark style                                                                                                   | Light style                                                                                                                                |
+| ------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------ |
 | ![Line plot](https://github.com/quantumblacklabs/qbstyles/raw/master/examples/line.png?raw=true "Line plot") | ![Distribution plot](https://github.com/quantumblacklabs/qbstyles/raw/master/examples/distribution_light.png?raw=true "Distribution plot") |
 
 ## How do I install QB Styles?
 
 `qbstyles` is a Python package. To install it, simply run:
-
 
 ```bash
 pip install qbstyles
@@ -31,7 +30,7 @@ mpl_style(dark=True)
 plt.style.use('./your-style.mplstyle')
 ```
 
-And to use the light Matplotlib style theme, you can do the following: 
+And to use the light Matplotlib style theme, you can do the following:
 
 ```python
 from qbstyles import mpl_style
@@ -47,6 +46,7 @@ mpl_style(dark=False)
 # first cell
 from qbstyles import mpl_style
 ```
+
 ```python
 # second cell
 mpl_style()
@@ -66,7 +66,7 @@ mpl_style()
 
 ## Can you show me a few examples?
 
-To run the examples in [`example.ipynb`](https://github.com/quantumblacklabs/qbstyles/blob/master/example.ipynb), install the required packages using ``pip install -r requirements_notebook.txt`` in a Python virtual environment of your choice.
+To run the examples in [`example.ipynb`](https://github.com/quantumblacklabs/qbstyles/blob/master/example.ipynb), install the required packages using `pip install -r requirements_notebook.txt` in a Python virtual environment of your choice.
 
 ```python
 import matplotlib.pyplot as plt
@@ -75,8 +75,8 @@ from qbstyles import mpl_style
 def plot(dark):
     mpl_style(dark)
     fig, axes = plt.subplots(2, 2, figsize=(15, 10))
-    
-    # the following functions are defined in example.ipynb 
+
+    # the following functions are defined in example.ipynb
     line_plot(axes[0, 0])
     scatter_plot(axes[0, 1])
     distribution_plot(axes[1, 0])
@@ -95,7 +95,7 @@ plot(dark=False)
 
 ![png](https://github.com/quantumblacklabs/qbstyles/raw/master/examples/output_7_0.png?raw=true)
 
-## How do I create my own styles? 
+## How do I create my own styles?
 
 Have a look at the files [qb-common.mplstyle](https://github.com/quantumblacklabs/qbstyles/blob/master/qbstyles/styles/qb-common.mplstyle), [qb-dark.mplstyle](https://github.com/quantumblacklabs/qbstyles/blob/master/qbstyles/styles/qb-dark.mplstyle) and [qb-light.mplstyle](https://github.com/quantumblacklabs/qbstyles/blob/master/qbstyles/styles/qb-light.mplstyle). They contain many elements that you may want to customise.
 
