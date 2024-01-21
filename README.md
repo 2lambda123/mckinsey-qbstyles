@@ -7,7 +7,8 @@
 
 QB Styles is a python package with a light and a dark [`matplotlib`](https://github.com/matplotlib/matplotlib) style.
 
-| Dark style                                                                                                   | Light style                                                                                                                                |
+| Dark style                                                                                                   | Light style                                                                                                                                 |
+| ------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------ |
 | ------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------ |
 | ![Line plot](https://github.com/quantumblacklabs/qbstyles/raw/master/examples/line.png?raw=true "Line plot") | ![Distribution plot](https://github.com/quantumblacklabs/qbstyles/raw/master/examples/distribution_light.png?raw=true "Distribution plot") |
 
