@@ -44,7 +44,11 @@ mpl_style(dark=False)
 
 ```python
 # first cell
+import matplotlib.pyplot as plt
 from qbstyles import mpl_style
+
+mpl_style(dark=False)
+plt.style.use('qbstyles/styles/qb-light.mplstyle')
 ```
 
 ```python
@@ -93,7 +97,6 @@ plot(dark=False)
 ```
 
 ![png](https://github.com/quantumblacklabs/qbstyles/raw/master/examples/output_7_0.png?raw=true)
-
 ## How do I create my own styles?
 
 Have a look at the files [qb-common.mplstyle](https://github.com/quantumblacklabs/qbstyles/blob/master/qbstyles/styles/qb-common.mplstyle), [qb-dark.mplstyle](https://github.com/quantumblacklabs/qbstyles/blob/master/qbstyles/styles/qb-dark.mplstyle) and [qb-light.mplstyle](https://github.com/quantumblacklabs/qbstyles/blob/master/qbstyles/styles/qb-light.mplstyle). They contain many elements that you may want to customise.
