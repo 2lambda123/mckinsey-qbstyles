@@ -27,7 +27,7 @@ You can use the dark Matplotlib style theme in the following way:
 from qbstyles import mpl_style
 
 mpl_style(dark=True)
-plt.style.use('./your-style.mplstyle')
+plt.style.use('qbstyles/styles/qb-dark.mplstyle')
 ```
 
 And to use the light Matplotlib style theme, you can do the following:
