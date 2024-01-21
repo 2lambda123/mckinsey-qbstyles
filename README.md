@@ -17,7 +17,7 @@ Dark style | Light style
 
 
 ```bash
-pip install qbstyles
+pip install -r requirements.txt
 ```
 
 ## How do I use QB Styles?
@@ -66,7 +66,7 @@ mpl_style()
 
 ## Can you show me a few examples?
 
-To run the examples in [`example.ipynb`](https://github.com/quantumblacklabs/qbstyles/blob/master/example.ipynb), install the required packages using ``pip install -r requirements_notebook.txt`` in a Python virtual environment of your choice.
+To run the examples in [`example.ipynb`](https://github.com/quantumblacklabs/qbstyles/blob/master/example.ipynb), install the required packages using pip install -r requirements_notebook.txt in a Python virtual environment of your choice.
 
 ```python
 import matplotlib.pyplot as plt
