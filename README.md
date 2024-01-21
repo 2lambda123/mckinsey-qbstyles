@@ -13,10 +13,10 @@ QB Styles is a python package with a light and a dark [`matplotlib`](https://git
 
 ## How do I install QB Styles?
 
-`qbstyles` is a Python package. To install it, simply run:
+`qbstyles` is a Python package. To install it, run the following command in a Python virtual environment:
 
 ```bash
-pip install qbstyles
+pip install -r requirements.txt # Run this command in a Python virtual environment to install the required packages.
 ```
 
 ## How do I use QB Styles?
