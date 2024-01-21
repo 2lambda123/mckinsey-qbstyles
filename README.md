@@ -13,10 +13,10 @@ QB Styles is a python package with a light and a dark [`matplotlib`](https://git
 
 ## How do I install QB Styles?
 
-`qbstyles` is a Python package. To install it, simply run:
+`qbstyles` is a Python package. To install it, run the following command in a Python virtual environment:
 
 ```bash
-pip install qbstyles
+pip install -r requirements.txt # Run this command in a Python virtual environment to install the required packages.
 ```
 
 ## How do I use QB Styles?
@@ -27,7 +27,7 @@ You can use the dark Matplotlib style theme in the following way:
 from qbstyles import mpl_style
 
 mpl_style(dark=True)
-plt.style.use('./your-style.mplstyle')
+plt.style.use('qbstyles/styles/qb-dark.mplstyle')
 ```
 
 And to use the light Matplotlib style theme, you can do the following:
@@ -44,7 +44,11 @@ mpl_style(dark=False)
 
 ```python
 # first cell
+import matplotlib.pyplot as plt
 from qbstyles import mpl_style
+
+from qbstyles import mpl_style
+mpl_style()
 ```
 
 ```python
@@ -93,7 +97,6 @@ plot(dark=False)
 ```
 
 ![png](https://github.com/quantumblacklabs/qbstyles/raw/master/examples/output_7_0.png?raw=true)
-
 ## How do I create my own styles?
 
 Have a look at the files [qb-common.mplstyle](https://github.com/quantumblacklabs/qbstyles/blob/master/qbstyles/styles/qb-common.mplstyle), [qb-dark.mplstyle](https://github.com/quantumblacklabs/qbstyles/blob/master/qbstyles/styles/qb-dark.mplstyle) and [qb-light.mplstyle](https://github.com/quantumblacklabs/qbstyles/blob/master/qbstyles/styles/qb-light.mplstyle). They contain many elements that you may want to customise.
